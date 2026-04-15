@@ -43,4 +43,75 @@ img {
 /* MAIN-CONTENT */
 .main-content {
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+/* GLOBAL WRAPPER */
+.global-wrapper {
+    width: 100%;
+    min-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-grow: 1;
+    display: flex;
+}
+
+
+/* HERO  */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-image: url("../img/left-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.hero-content {
+    max-width: 285px;
+}
+
+.hero-heading {
+    margin-top: 0;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    font-size: 24px;
+    line-height: normal;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.primary-button {
+    display: inline-block;
+    background-color: #1e90ff;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 24px;
+    border: none;
+}
+
+.hero-link-text {
+}
+
+
+/* RETINA BG */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+    .hero {
+            background-image: url("../img/left-bg@2x.jpg");
+    }
+
 }
