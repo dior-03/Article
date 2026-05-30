@@ -1,0 +1,49 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# macOS system directories
+Pictures/
+Movies/
+Music/
+Desktop/
+Downloads/
+Documents/
+Public/
+DCIM/
+Library/
+
+# Shell & config files
+.bash_history
+.zsh_history
+.zsh_sessions/
+.zcompdump
+.CFUserTextEncoding
+
+# App config / credentials
+.adobe/
+.android/
+.cocoapods/
+.gem/
+.gitconfig
+.local/
+.mkshrc
+.npm/
+.nvm/
+.rvm/
+.swiftpm/
+.vscode/
+.vscode-shared/
+.claude/
+.claude.json
+.bash_profile
+.bashrc
+.zlogin
+.zprofile
+.zshrc
+
+# Frontend folder at home root
+Frontend
