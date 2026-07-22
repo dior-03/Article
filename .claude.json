@@ -945,19 +945,19 @@
   "orgModelDefaultCache": null,
   "autoCompactWindowsCache": null,
   "cachedUsageUtilization": {
-    "fetchedAtMs": 1784618884401,
+    "fetchedAtMs": 1784722619941,
     "accountUuid": "6b8ee9ec-2e05-499e-8654-d32fefdd24f9",
     "utilization": {
       "five_hour": {
-        "utilization": 0,
-        "resets_at": null,
+        "utilization": 48,
+        "resets_at": "2026-07-22T15:20:00.040732+00:00",
         "limit_dollars": null,
         "used_dollars": null,
         "remaining_dollars": null
       },
       "seven_day": {
-        "utilization": 40,
-        "resets_at": "2026-07-22T21:00:00.352098+00:00",
+        "utilization": 47,
+        "resets_at": "2026-07-22T21:00:00.040755+00:00",
         "limit_dollars": null,
         "used_dollars": null,
         "remaining_dollars": null
@@ -988,20 +988,20 @@
         {
           "kind": "session",
           "group": "session",
-          "percent": 0,
+          "percent": 48,
           "severity": "normal",
-          "resets_at": null,
+          "resets_at": "2026-07-22T15:20:00.040732+00:00",
           "scope": null,
-          "is_active": false
+          "is_active": true
         },
         {
           "kind": "weekly_all",
           "group": "weekly",
-          "percent": 40,
+          "percent": 47,
           "severity": "normal",
-          "resets_at": "2026-07-22T21:00:00.352098+00:00",
+          "resets_at": "2026-07-22T21:00:00.040755+00:00",
           "scope": null,
-          "is_active": true
+          "is_active": false
         }
       ],
       "spend": {
